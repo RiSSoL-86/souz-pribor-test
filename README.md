@@ -1,0 +1,1 @@
+# souz-pribor-test
