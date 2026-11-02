@@ -1,0 +1,8 @@
+from django_project.settings import BASE_DIR, DEBUG, env
+
+STATIC_URL = env("STATIC_URL")
+MEDIA_URL = env("MEDIA_URL")
+MEDIA_ROOT = BASE_DIR / env("MEDIA_ROOT")
+STATIC_ROOT = BASE_DIR / env("STATIC_ROOT")
+
+WHITENOISE_USE_FINDERS = DEBUG
